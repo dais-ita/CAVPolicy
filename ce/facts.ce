@@ -1,0 +1,101 @@
+-- facts
+
+-- levels of autonomy
+
+there is a level of autonomy named 'no automation' that
+  has the value '0' as SAE Level and
+  has the value 'The full-time performance by the human driver of all aspects of the dynamic driving task, even when "enhanced by warning or intervention systems".' as definition and
+  has the value 'human' as responsible for vehicle control and
+  has the value 'human' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a level of autonomy named 'driver assistance' that
+  has the value '1' as SAE Level and 
+  has the value 'The driving mode-specific execution by a driver assistance system of "either steering or acceleration/deceleration", using information about the driving environment and with the expectation that the human driver performs all remaining aspects of the dynamic driving task.' as definition and
+  has the value 'human and system' as responsible for vehicle control and 
+  has the value 'human' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a level of autonomy named 'partial automation' that
+  has the value '2' as SAE Level and
+  has the value 'The driving mode-specific execution by one or more driver assistance systems of both steering and acceleration/deceleration, using information about the driving environment and with the expectation that the human driver performs all remaining aspects of the dynamic driving task.' as definition and
+  has the value 'system' as responsible for vehicle control and 
+  has the value 'human' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a level of autonomy named 'conditional automation' that
+  has the value '3' as SAE Level and
+  has the value 'The driving mode-specific performance by an automated driving system of all aspects of the dynamic driving task with the expectation that the human driver will respond appropriately to a request to intervene.' as definition and
+  has the value 'system' as responsible for vehicle control and 
+  has the value 'system' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a level of autonomy named 'high automation' that
+  has the value '4' as SAE Level and
+  has the value 'The driving mode-specific performance by an automated driving system of all aspects of the dynamic driving task even if a human driver does not respond appropriately to a request to intervene.' as definition and
+  has the value 'system' as responsible for vehicle control and 
+  has the value 'system' as responsible for monitoring the driving environment and
+  has the value 'system' as ultimately responsible for the dynamic driving task.
+
+there is a level of autonomy named 'full automation' that
+  has the value '5' as SAE Level and
+  has the value 'The driving mode-specific performance by an automated driving system of all aspects of the dynamic driving task under all roadway and environmental conditions that can be managed by a human driver.' as definition and
+  has the value 'system' as responsible for vehicle control and 
+  has the value 'system' as responsible for monitoring the driving environment and
+  has the value 'system' as ultimately responsible for the dynamic driving task.
+
+-- auto generate environmental conditions
+-- auto generate driving task instances
+
+-- driving tasks
+
+there is a driving task named 'performing turn' that
+  has the value 'Turning the vehicle left or right at a given junction. The human driver may have to intervene at blind corners.' as description and
+  has the value 'system' as responsible for vehicle control and
+  has the value 'system' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a driving task named 'high speed cruising' that
+  has the value 'Maintaining the speed of a vehicle whilst travelling on a motorway' as description and
+  has the value 'human' as responsible for vehicle control and
+  has the value 'human' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a driving task named 'adaptive speed control' that
+  has the value 'Maintaining and adjusting the speed of a vehicle whilst travelling on a motorway. This enables the vehicle to slow down or speed up accordingly depending on objects on the road' as description and
+  has the value 'human and system' as responsible for vehicle control and
+  has the value 'human' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a driving task named 'parking' that
+  has the value 'Controlling the motion and steering of a vehicle to park it in a desired space.' as description and
+  has the value 'system' as responsible for vehicle control and
+  has the value 'human' as responsible for monitoring the driving environment and
+  has the value 'human' as ultimately responsible for the dynamic driving task.
+
+there is a driving task named 'residential driving' that
+  has the value 'Controlling and moving the vehicle in residential areas. The vehicle monitors it\'s environment and adjusts it\'s speed and motion accordingly. The human driver does not have any responsibility to intervene.' as description and
+  has the value 'system' as responsible for vehicle control and
+  has the value 'system' as responsible for monitoring the driving environment and
+  has the value 'system' as ultimately responsible for the dynamic driving task.
+
+
+-- vehicles
+there is a vehicle named 'Tesla Model S' that
+  is capable of operating at the level of autonomy 'partial automation'.
+
+there is a vehicle named 'Audi AI' that
+  is capable of operating at the level of autonomy 'conditional automation'.
+
+there is a vehicle named 'Vauxhall Astra' that
+  is capable of operating at the level of autonomy 'driver assistance'.
+
+there is a vehicle named 'Futuristic Intelligent Vehicle' that
+  is capable of operating at the level of autonomy 'high automation'.
+
+there is a vehicle named 'Ford Fiesta' that 
+  is capable of operating at the level of autonomy 'no automation'.
+
+there is a vehicle named 'Lamborghini Huracan' that
+  is capable of operating at the level of autonomy 'full automation'.
+  

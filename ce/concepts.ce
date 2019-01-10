@@ -1,0 +1,59 @@
+conceptualise a ~ level of autonomy ~ LOA that
+  has the value SAE as ~ SAE Level ~ and
+  has the value DEF as ~ definition ~ and
+  has the value C as ~ responsible for vehicle control ~ and
+  has the value M as ~ responsible for monitoring the driving environment ~ and
+  has the value F as ~ ultimately responsible for the dynamic driving task ~.
+
+conceptualise a ~ driving task ~ DT that
+  has the value DESC as ~ description ~ and
+  has the value C as ~ responsible for vehicle control ~ and
+  has the value M as ~ responsible for monitoring the driving environment ~ and
+  has the value F as ~ ultimately responsible for the dynamic driving task ~.
+
+conceptualise a ~ driving task instance ~ DTI that
+  ~ is an instance of ~ the driving task DT and
+  ~ is executed in ~ the visibility level VL and
+  ~ is executed in ~ the weather condition WC and
+  ~ is executed in ~ the traffic congestion level TCL and
+  ~ requires ~ the level of autonomy LOA.
+
+conceptualise a ~ vehicle ~ V that
+  has the value POINT as ~ GeoJSON point ~ and
+  ~ is located within ~ the region R and
+  ~ is capable of operating at ~ the level of autonomy LOA.
+
+conceptualise a ~ region ~ R that
+  has the value POLY as ~ GeoJSON polygon ~ and
+  ~ permits ~ the level of autonomy LOA.
+
+conceptualise an ~ environmental condition ~ EC.
+
+conceptualise a ~ visibility level ~ VL that
+  is an environmental condition and
+  has the value V as ~ visibility ~.
+
+conceptualise a ~ weather condition ~ WC that
+  is an environmental condition and
+  has the value WT as ~ weather type ~.
+
+conceptualise a ~ traffic congestion level ~ TCL that
+  is an environmental condition and
+  has the value S as ~ severity ~.
+
+conceptualise a ~ policy instance ~ PI that
+  ~ is initiated by ~ the vehicle V and
+  ~ is initiated in ~ the region R and 
+  ~ is attempting to execute ~ the driving task instance DTI and
+  has the value TN as ~ driving task type ~ and
+  has the value VL as ~ visibility level ~ and
+  has the value WC as ~ weather condition ~ and
+  has the value TCL as ~ traffic congestion level ~ and
+  has the value VC as ~ responsible for vehicle control ~ and
+  has the value M as ~ responsible for monitoring the driving environment ~ and
+  has the value F as ~ ultimately responsible for the dynamic driving task ~ and
+  has the value VLOA as ~ vehicle LOA ~ and
+  has the value RLOA as ~ region LOA ~ and
+  has the value DTLOA as ~ driving task LOA ~ and
+  has the value R as ~ result ~.
+  
