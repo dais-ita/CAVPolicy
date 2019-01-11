@@ -1,6 +1,6 @@
 # Connected and Autonomous Vehicle Annotated Policies
 
-This repository contains the dataset and [Controlled English (CE)](https://github.com/ce-store/ce-store) model used in the publication *"An Answer Set Grammar-based Generative Policy Model for Connected and Autonomous Vehicles"*. Also, to support the publication, the full Answer Set Grammar hypothesis space is listed [here](asg_hypothesis_space.md).
+This repository contains the dataset and [Controlled English (CE)](https://github.com/ce-store/ce-store) model used in the publication *"An Answer Set Grammar-based Generative Policy Model for Connected and Autonomous Vehicles"*. Also, to support the publication, the full Answer Set Grammar (ASG) hypothesis space is listed [here](asg_hypothesis_space.md).
 
 ## Dataset
 
