@@ -1,6 +1,6 @@
 # Answer Set Grammar Hypothesis Space
 
-The following is the complete Answer Set Grammar (ASG) learned hypothesis space from the publication "An Answer Set Grammar-based Generative Policy Model for Connected and Autonomous Vehicles".
+The following is the complete Answer Set Grammar (ASG) hypothesis space from the publication "An Answer Set Grammar-based Generative Policy Model for Connected and Autonomous Vehicles".
 
 ```
 1:[1] ~ driving_loa(0).
