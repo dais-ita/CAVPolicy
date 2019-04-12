@@ -1,4 +1,4 @@
-# Connected and Autonomous Vehicle Annotated Policies
+# CAVPolicy
 
 This repository contains the CAVPolicy dataset and [Controlled English (CE)](https://github.com/ce-store/ce-store) model used in the publication *"A Generative Policy Model for Connected and Autonomous Vehicles"*. Also, to support the publication, the full Answer Set Grammar (ASG) hypothesis space of the learning task in Example 2 is listed [here](asg_hypothesis_space.md).
 
